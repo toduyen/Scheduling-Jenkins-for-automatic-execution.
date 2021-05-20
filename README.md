@@ -8,15 +8,8 @@ Jenkins cung cấp nhiều cách để kích hoạt quá trình xây dựng tư�
 
 ## CÁC THÔNG SỐ THIẾT LẬP THỜI GIAN THỰC THI
 Jenkins đã sử dụng một biểu thức tên là cron và các trường khác nhau cấu thành lên biểu thức đó là
-  ┌───────────── minute (0 - 59)
-  │ ┌───────────── hour (0 - 23)
-  │ │ ┌───────────── day of the month (1 - 31)
-  │ │ │ ┌───────────── month (1 - 12)
-  │ │ │ │ ┌───────────── day of the week (0 - 6) (Sunday to Saturday;
-  │ │ │ │ │                                   7 is also Sunday on some systems)
-  │ │ │ │ │
-  │ │ │ │ │
-  * * * * * <command to execute>
+  
+![Image of automatic](https://i.imgur.com/kmh7ViU.png)
 
 Ví dụ:Nhập 0 23 * * * vào hộp văn bản Lịch biểu như được hiển thị trong ảnh chụp màn hình sau.
 Điều này sẽ kích hoạt quá trình xây dựng hàng ngày vào lúc 11 giờ đêm.
